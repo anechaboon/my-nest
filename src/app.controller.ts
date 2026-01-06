@@ -6,7 +6,7 @@ import {
   Param,
   ParseIntPipe,
 } from '@nestjs/common';
-import { UserService } from './user/user.service';
+import { UserService } from './users/user.service';
 
 @Controller()
 export class AppController {
